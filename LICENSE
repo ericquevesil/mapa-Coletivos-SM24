@@ -1,0 +1,49 @@
+                 LICENÇA ABERTA - DataLABIS (LA-DataLABIS)
+                         Versão 1.0, Junho 2025
+
+Copyright DataLABIS (C) 2025 Laboratório de Investigação Sociológica (LABIS/UFSM).
+Todos os direitos reservados aos autores originais. Distribuição permitida sob os termos desta licença.
+
+----------------------------------------------------------------------------------------------------------
+Preâmbulo:
+Esta licença é inspirada nos princípios da GNU GPLv3 e adaptada para obras acadêmicas, conjuntos de dados e softwares desenvolvidos no contexto de pesquisa pública.
+
+Seu objetivo é garantir:
+  - Liberdade de uso: Para fins acadêmicos, de pesquisa ou ação comunitária.
+  - Liberdade de adaptação: Modificar ou estender o trabalho conforme necessidades.
+  - Liberdade de compartilhamento: Distribuir versões originais ou derivadas, desde que respeitadas as condições abaixo.
+
+Ao contrário de licenças proprietárias, a Licença Aberta - DataLABIS protege os direitos dos usuários contra restrições que limitem o acesso ao conhecimento.
+----------------------------------------------------------------------------------------------------------
+
+### TERMOS E CONDIÇÕES
+
+1. Definições
+  - "Trabalho": O código, dados, documentação ou qualquer material licenciado sob esta licença.
+  - "Trabalho Derivado": Qualquer adaptação que requeira permissão de autoria sob leis de direitos autorais.
+  - "Atribuição": Crédito obrigatório aos autores originais (LABIS/UFSM e colaboradores).
+
+2. Permissões Básicas
+Você pode:
+  - Usar o Trabalho para qualquer finalidade não-comercial.
+  - Modificar e criar Trabalhos Derivados.
+
+Distribuir cópias, desde que:
+  - Inclua esta licença e os avisos de copyright originais.
+  - Disponibilize o código-fonte (se aplicável) ou os dados brutos.
+  - Mantenha a mesma licença para Trabalhos Derivados (copyleft).
+
+3. Restrições
+  - Uso Comercial: Requer autorização por escrito do LABIS/UFSM.
+  - Atribuição Obrigatória: 
+      Deve incluir:
+          "Este trabalho utiliza dados/código do projeto Catástrofes Climáticas (LABIS/UFSM), licenciado sob a LAA-DataLABIS. Disponível em: santamariaemrede.org."
+
+4. Isenção de Garantias
+O Trabalho é fornecido "COMO ESTÁ", sem garantias de precisão, funcionalidade ou adequação a qualquer propósito. Os autores não são responsáveis por danos decorrentes do uso.
+
+5. Patentes e Direitos Autorais
+Se o Trabalho incluir contribuições protegidas por patentes, você concorda em não usá-las para restringir as liberdades desta licença.
+
+6. Terminação
+Violar os termos revoga automaticamente seus direitos sob esta licença.
