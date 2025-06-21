@@ -1,6 +1,6 @@
 # 🌍 Mapeamento das Ações Coletivas de Voluntariado - Santa Maria/RS (2024)
 
-[![License: LA-DataLABIS](https://img.shields.io/badge/License-LA--DataLABIS-blue.svg)](LICENSE.txt)
+[![License: LA-DataLABIS](https://img.shields.io/badge/License-LA--DataLABIS-blue.svg)](LICENSE)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15708548.svg)](https://doi.org/10.5281/zenodo.15708548)
 
 Projeto de mapeamento interativo das iniciativas de voluntariado emergenciais após o desastre socioambiental de 2024 em Santa Maria/RS.
