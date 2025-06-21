@@ -10,7 +10,7 @@ Projeto de mapeamento interativo das iniciativas de voluntariado emergenciais ap
 </p>
 
 ## 📋 Sobre o Projeto
-Desenvolvido pelo **Laboratório de Investigação Sociológica (LABIS/UFSM)** como parte da pesquisa *"Catástrofes climáticas: dimensões socioculturais do alerta e contenção de riscos"*, financiada pela Pró-Reitoria de Extensão (PRE/UFSM).
+Desenvolvido pelo **Laboratório de Investigação Sociológica (LABIS/UFSM)** como parte do projeto *"Catástrofes climáticas: dimensões socioculturais do alerta e contenção de riscos"*, financiada pela Pró-Reitoria de Extensão (PRE/UFSM).
 
 **Objetivos**:
 - Visualizar geograficamente a rede de solidariedade emergencial
