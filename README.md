@@ -16,9 +16,3 @@ Estudo desenvolvido pelo **Laboratório de Investigação Sociológica (LABIS/UF
 - Visualizar geograficamente a rede de solidariedade emergencial
 - Documentar iniciativas comunitárias de resposta à crise
 - Facilitar a conexão entre voluntários e organizações
-
-## 🛠️ Tecnologias
-- **Python 3** + **Jupyter Notebook** (opcional)
-- Bibliotecas:
-  - `folium` (mapas interativos)
-  - `branca` (elementos customizados)
