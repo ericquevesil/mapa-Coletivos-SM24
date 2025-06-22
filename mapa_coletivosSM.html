@@ -17,7 +17,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_9b6f9375854f7f91ac7b585c4515ee6b {
+                #map_81b9b963b7f08164fd2af6148de4af62 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -54,7 +54,7 @@
 <body>
     
     
-            <div class="folium-map" id="map_9b6f9375854f7f91ac7b585c4515ee6b" ></div>
+            <div class="folium-map" id="map_81b9b963b7f08164fd2af6148de4af62" ></div>
         
     
 <div style="
@@ -71,23 +71,38 @@
     font-family: Arial, sans-serif;
     font-size: 12px;
 ">
-    <h4 style="margin-top:0; text-align:center">DESCRIÇÃO</h4>
+    <h4 style="margin-top:0; text-align:center">LEGENDA</h4>
     <div style="margin-bottom:5px">
+        <i class="fa fa-cutlery" style="color:brown; margin-left:3px"></i>
+        <span style="margin-left:8px">Cozinha Solidária</span>
     </div>
     <div style="margin-bottom:5px">
-        <i class="fa fa-exclamation-triangle" style="color:green; margin-left:3px"></i>
-        <span style="margin-left:8px">Coletivos mapeados</span>
+        <i class="fa fa-users" style="color:orange; margin-left:3px"></i>
+        <span style="margin-left:8px">Associação</span>
     </div>
     <div style="margin-bottom:5px">
-    <p style="margin-bottom:0; font-size:10px">DOI 10.5281/zenodo.15708548</p>
-    <p style="margin-bottom:0; font-size:10px">DataLABIS © 2025 </p>
+        <i class="fa fa-church" style="color:purple; margin-left:3px"></i>
+        <span style="margin-left:8px">Instituição Religiosa</span>
+    </div>
+    <div style="margin-bottom:5px">
+        <i class="fa fa-heart" style="color:darkred; margin-left:3px"></i>
+        <span style="margin-left:8px">ONG</span>
+    </div>
+    <div style="margin-bottom:5px">
+        <i class="fa fa-flag" style="color:darkgreen; margin-left:3px"></i>
+        <span style="margin-left:8px">CTG</span>
+    </div>
+    <div style="margin-bottom:5px">
+        <p style="margin-bottom:0; font-size:10px">DOI 10.5281/zenodo.15708548</p>
+        <p style="margin-bottom:0; font-size:10px">DataLABIS © 2025</p>
+    </div>
 </div>
 </body>
 <script>
     
     
-            var map_9b6f9375854f7f91ac7b585c4515ee6b = L.map(
-                "map_9b6f9375854f7f91ac7b585c4515ee6b",
+            var map_81b9b963b7f08164fd2af6148de4af62 = L.map(
+                "map_81b9b963b7f08164fd2af6148de4af62",
                 {
                     center: [-29.6833, -53.8],
                     crs: L.CRS.EPSG3857,
@@ -99,13 +114,13 @@
 
                 }
             );
-            L.control.scale().addTo(map_9b6f9375854f7f91ac7b585c4515ee6b);
+            L.control.scale().addTo(map_81b9b963b7f08164fd2af6148de4af62);
 
             
 
         
     
-            var tile_layer_f71cb38d8a740bf0593a475dded083e1 = L.tileLayer(
+            var tile_layer_72de35e0514bbcc76fd960300de1c3ed = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {
   "minZoom": 0,
@@ -122,729 +137,967 @@
             );
         
     
-            tile_layer_f71cb38d8a740bf0593a475dded083e1.addTo(map_9b6f9375854f7f91ac7b585c4515ee6b);
+            tile_layer_72de35e0514bbcc76fd960300de1c3ed.addTo(map_81b9b963b7f08164fd2af6148de4af62);
         
     
-            var marker_16f5c90b21d1c4b377fde3b87a32350b = L.marker(
-                [-29.6742619, -53.826569],
-                {
-}
-            ).addTo(map_9b6f9375854f7f91ac7b585c4515ee6b);
-        
-    
-            var icon_0a79459554f044ded1a260f4407d204f = L.AwesomeMarkers.icon(
-                {
-  "markerColor": "green",
-  "iconColor": "white",
-  "icon": "exclamation-triangle",
-  "prefix": "fa",
-  "extraClasses": "fa-rotate-0",
-}
-            );
-        
-    
-        var popup_457c5d869bc12026f7db4ef8750d807b = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_4070c5d33d895a7bd7f07e4df46f9c71 = $(`<div id="html_4070c5d33d895a7bd7f07e4df46f9c71" style="width: 100.0%; height: 100.0%;">Igreja Batista Betel Av. Borges de Medeiros, 1175 – Salgado Filho, Santa Maria, RS Contato: Diego: (54) 99669-4833</div>`)[0];
-                popup_457c5d869bc12026f7db4ef8750d807b.setContent(html_4070c5d33d895a7bd7f07e4df46f9c71);
-            
-        
-
-        marker_16f5c90b21d1c4b377fde3b87a32350b.bindPopup(popup_457c5d869bc12026f7db4ef8750d807b)
-        ;
-
-        
-    
-    
-                marker_16f5c90b21d1c4b377fde3b87a32350b.setIcon(icon_0a79459554f044ded1a260f4407d204f);
-            
-    
-            var marker_e6463ead68a57f88b4edfe0c572484bf = L.marker(
-                [-29.7517656, -53.7890168],
-                {
-}
-            ).addTo(map_9b6f9375854f7f91ac7b585c4515ee6b);
-        
-    
-            var icon_2e368cda683b535ae45d821f4541261f = L.AwesomeMarkers.icon(
-                {
-  "markerColor": "green",
-  "iconColor": "white",
-  "icon": "exclamation-triangle",
-  "prefix": "fa",
-  "extraClasses": "fa-rotate-0",
-}
-            );
-        
-    
-        var popup_97422090435c27aababd5d12528007ee = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_879facc4a02fc7f2acbd25d5765a5174 = $(`<div id="html_879facc4a02fc7f2acbd25d5765a5174" style="width: 100.0%; height: 100.0%;">Igreja Templo do Poder de Deus Rua Augusto Kunz, 150 – Passo das Tropas, Santa Maria, RS</div>`)[0];
-                popup_97422090435c27aababd5d12528007ee.setContent(html_879facc4a02fc7f2acbd25d5765a5174);
-            
-        
-
-        marker_e6463ead68a57f88b4edfe0c572484bf.bindPopup(popup_97422090435c27aababd5d12528007ee)
-        ;
-
-        
-    
-    
-                marker_e6463ead68a57f88b4edfe0c572484bf.setIcon(icon_2e368cda683b535ae45d821f4541261f);
-            
-    
-            var marker_77346e249022b7bd6ef391349b4fbb67 = L.marker(
-                [-29.6799206, -53.8292641],
-                {
-}
-            ).addTo(map_9b6f9375854f7f91ac7b585c4515ee6b);
-        
-    
-            var icon_fd909440f3b523b534628e1995573867 = L.AwesomeMarkers.icon(
-                {
-  "markerColor": "green",
-  "iconColor": "white",
-  "icon": "exclamation-triangle",
-  "prefix": "fa",
-  "extraClasses": "fa-rotate-0",
-}
-            );
-        
-    
-        var popup_c927f3fa3c7a422e62de3af90a5e0ed7 = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_480935da78c20ab3be04943e9de2aa11 = $(`<div id="html_480935da78c20ab3be04943e9de2aa11" style="width: 100.0%; height: 100.0%;">Templo de Umbanda Xangô e Exu Caveira Rua 20 de Janeiro, 391 – Divina Providência, Santa Maria, RS Contato: Fabrício de Cassenote: (55) 99148-1732</div>`)[0];
-                popup_c927f3fa3c7a422e62de3af90a5e0ed7.setContent(html_480935da78c20ab3be04943e9de2aa11);
-            
-        
-
-        marker_77346e249022b7bd6ef391349b4fbb67.bindPopup(popup_c927f3fa3c7a422e62de3af90a5e0ed7)
-        ;
-
-        
-    
-    
-                marker_77346e249022b7bd6ef391349b4fbb67.setIcon(icon_fd909440f3b523b534628e1995573867);
-            
-    
-            var marker_321362e79f154dda989b2cf9e30df856 = L.marker(
-                [-29.6913361, -53.8623986],
-                {
-}
-            ).addTo(map_9b6f9375854f7f91ac7b585c4515ee6b);
-        
-    
-            var icon_428b1ef04e3fedc8c0f9e003ea7b93f3 = L.AwesomeMarkers.icon(
-                {
-  "markerColor": "green",
-  "iconColor": "white",
-  "icon": "exclamation-triangle",
-  "prefix": "fa",
-  "extraClasses": "fa-rotate-0",
-}
-            );
-        
-    
-        var popup_22378d858982b3ef424a5ccfdcb813ff = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_92c7a213e2a2dfe205c8538457f60bb1 = $(`<div id="html_92c7a213e2a2dfe205c8538457f60bb1" style="width: 100.0%; height: 100.0%;">Reino de Axé Oyá Nique e Oxalá Rua Benjamin D’Ávila Prado, 11 – Juscelino Kubitschek, Santa Maria, RS Contato: Sabrina: (55) 98413-1680</div>`)[0];
-                popup_22378d858982b3ef424a5ccfdcb813ff.setContent(html_92c7a213e2a2dfe205c8538457f60bb1);
-            
-        
-
-        marker_321362e79f154dda989b2cf9e30df856.bindPopup(popup_22378d858982b3ef424a5ccfdcb813ff)
-        ;
-
-        
-    
-    
-                marker_321362e79f154dda989b2cf9e30df856.setIcon(icon_428b1ef04e3fedc8c0f9e003ea7b93f3);
-            
-    
-            var marker_0a0d83ffa97c2b6a82cdfd1a1a1959e3 = L.marker(
-                [-29.6978133, -53.8675947],
-                {
-}
-            ).addTo(map_9b6f9375854f7f91ac7b585c4515ee6b);
-        
-    
-            var icon_0be71631968fec2fad77fa6cc048e03a = L.AwesomeMarkers.icon(
-                {
-  "markerColor": "green",
-  "iconColor": "white",
-  "icon": "exclamation-triangle",
-  "prefix": "fa",
-  "extraClasses": "fa-rotate-0",
-}
-            );
-        
-    
-        var popup_ef20fba82d4ad93710ac00fab118fe01 = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_9c3af71a7014f9f100fdb25ead12e02d = $(`<div id="html_9c3af71a7014f9f100fdb25ead12e02d" style="width: 100.0%; height: 100.0%;">ONG Mãos Unidas Pelo Cipriano Rua Niterói, 500 – Parque Pinheiro Machado, Santa Maria, RS Contato: Anderson Melgares: (55) 98419-9742</div>`)[0];
-                popup_ef20fba82d4ad93710ac00fab118fe01.setContent(html_9c3af71a7014f9f100fdb25ead12e02d);
-            
-        
-
-        marker_0a0d83ffa97c2b6a82cdfd1a1a1959e3.bindPopup(popup_ef20fba82d4ad93710ac00fab118fe01)
-        ;
-
-        
-    
-    
-                marker_0a0d83ffa97c2b6a82cdfd1a1a1959e3.setIcon(icon_0be71631968fec2fad77fa6cc048e03a);
-            
-    
-            var marker_a49106679a0976967ad4fb1aec7eb988 = L.marker(
-                [-29.7029807, -53.7215761],
-                {
-}
-            ).addTo(map_9b6f9375854f7f91ac7b585c4515ee6b);
-        
-    
-            var icon_93dc79661a30562793afae8badafb87d = L.AwesomeMarkers.icon(
-                {
-  "markerColor": "green",
-  "iconColor": "white",
-  "icon": "exclamation-triangle",
-  "prefix": "fa",
-  "extraClasses": "fa-rotate-0",
-}
-            );
-        
-    
-        var popup_e62069ad0c93a469f258f0b143af2d21 = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_d5dadd8ae0427ab89be5867314c6aafb = $(`<div id="html_d5dadd8ae0427ab89be5867314c6aafb" style="width: 100.0%; height: 100.0%;">CTG Sentinela da Querência Rua Silvino Jacob Zimmermann, 115 – Camobi, Santa Maria, RS Contato: Ronaldo Lock: (55) 99145-8529</div>`)[0];
-                popup_e62069ad0c93a469f258f0b143af2d21.setContent(html_d5dadd8ae0427ab89be5867314c6aafb);
-            
-        
-
-        marker_a49106679a0976967ad4fb1aec7eb988.bindPopup(popup_e62069ad0c93a469f258f0b143af2d21)
-        ;
-
-        
-    
-    
-                marker_a49106679a0976967ad4fb1aec7eb988.setIcon(icon_93dc79661a30562793afae8badafb87d);
-            
-    
-            var marker_4a85ca8ba925f8be520007cdcecff54d = L.marker(
-                [-29.7037774, -53.876117],
-                {
-}
-            ).addTo(map_9b6f9375854f7f91ac7b585c4515ee6b);
-        
-    
-            var icon_14572d51add703b4b3098d29193da087 = L.AwesomeMarkers.icon(
-                {
-  "markerColor": "green",
-  "iconColor": "white",
-  "icon": "exclamation-triangle",
-  "prefix": "fa",
-  "extraClasses": "fa-rotate-0",
-}
-            );
-        
-    
-        var popup_e56850d036a81f880bc95365e1285d1e = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_762245ca2554125a55652eff05982c8d = $(`<div id="html_762245ca2554125a55652eff05982c8d" style="width: 100.0%; height: 100.0%;">CTG Passo dos Ferreiros Rua Milton Mendonça de Souza, 500 – Tancredo Neves, Santa Maria, RS Contato: Tiago: (55) 99126-6823</div>`)[0];
-                popup_e56850d036a81f880bc95365e1285d1e.setContent(html_762245ca2554125a55652eff05982c8d);
-            
-        
-
-        marker_4a85ca8ba925f8be520007cdcecff54d.bindPopup(popup_e56850d036a81f880bc95365e1285d1e)
-        ;
-
-        
-    
-    
-                marker_4a85ca8ba925f8be520007cdcecff54d.setIcon(icon_14572d51add703b4b3098d29193da087);
-            
-    
-            var marker_aeda769a9e6fd9e05f196e34d0595964 = L.marker(
-                [-29.7033798, -53.8075996],
-                {
-}
-            ).addTo(map_9b6f9375854f7f91ac7b585c4515ee6b);
-        
-    
-            var icon_8ea2f0d7076a551f102a5cb24fb59a24 = L.AwesomeMarkers.icon(
-                {
-  "markerColor": "green",
-  "iconColor": "white",
-  "icon": "exclamation-triangle",
-  "prefix": "fa",
-  "extraClasses": "fa-rotate-0",
-}
-            );
-        
-    
-        var popup_668c2975f5c73503342b1b58618e7825 = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_b4c61bc48ddf98b3285ae064321aa63c = $(`<div id="html_b4c61bc48ddf98b3285ae064321aa63c" style="width: 100.0%; height: 100.0%;">Projeto Esperança Rua Ver. Bolsson, 1 – Nossa Sra. Medianeira, Santa Maria, RS Contato: Tiago: (55) 99126-6823</div>`)[0];
-                popup_668c2975f5c73503342b1b58618e7825.setContent(html_b4c61bc48ddf98b3285ae064321aa63c);
-            
-        
-
-        marker_aeda769a9e6fd9e05f196e34d0595964.bindPopup(popup_668c2975f5c73503342b1b58618e7825)
-        ;
-
-        
-    
-    
-                marker_aeda769a9e6fd9e05f196e34d0595964.setIcon(icon_8ea2f0d7076a551f102a5cb24fb59a24);
-            
-    
-            var marker_6f445966d861efa8c09b3e41291396a3 = L.marker(
+            var marker_751e9fa39ed1d3c7c51e5231ff31966a = L.marker(
                 [-29.6878303, -53.7810022],
                 {
 }
-            ).addTo(map_9b6f9375854f7f91ac7b585c4515ee6b);
+            ).addTo(map_81b9b963b7f08164fd2af6148de4af62);
         
     
-            var icon_8940a763e92cc9a87bedfde95a179979 = L.AwesomeMarkers.icon(
+            var icon_4ef72d2919b91db4eff0c861f4968ffe = L.AwesomeMarkers.icon(
                 {
-  "markerColor": "green",
+  "markerColor": "brown",
   "iconColor": "white",
-  "icon": "exclamation-triangle",
+  "icon": "cutlery",
   "prefix": "fa",
   "extraClasses": "fa-rotate-0",
 }
             );
         
     
-        var popup_e853e181e152c269341bd7a3300f831c = L.popup({
+        var popup_97f9f95fc3eaebdbd0554cbd8c92e60f = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_9716b172f76e8e3c90180ee5e017ea47 = $(`<div id="html_9716b172f76e8e3c90180ee5e017ea47" style="width: 100.0%; height: 100.0%;">Cozinha Popular da Comunidade E.V. Atrás da Creche Estação dos Ventos, Luiz Castagna, Travessa Girassol, 123 – Km 3, Santa Maria, RS</div>`)[0];
-                popup_e853e181e152c269341bd7a3300f831c.setContent(html_9716b172f76e8e3c90180ee5e017ea47);
+                var html_3806422a7250b88f2e8802ae258a7eac = $(`<div id="html_3806422a7250b88f2e8802ae258a7eac" style="width: 100.0%; height: 100.0%;">Cozinha Popular da Comunidade E.V. Atrás da Creche Estação dos Ventos, Luiz Castagna, Travessa Girassol, 123 – Km 3, Santa Maria, RS</div>`)[0];
+                popup_97f9f95fc3eaebdbd0554cbd8c92e60f.setContent(html_3806422a7250b88f2e8802ae258a7eac);
             
         
 
-        marker_6f445966d861efa8c09b3e41291396a3.bindPopup(popup_e853e181e152c269341bd7a3300f831c)
+        marker_751e9fa39ed1d3c7c51e5231ff31966a.bindPopup(popup_97f9f95fc3eaebdbd0554cbd8c92e60f)
         ;
 
         
     
     
-                marker_6f445966d861efa8c09b3e41291396a3.setIcon(icon_8940a763e92cc9a87bedfde95a179979);
+            marker_751e9fa39ed1d3c7c51e5231ff31966a.bindTooltip(
+                `<div>
+                     Cozinha Popular da Comunidade Estação dos Ventos
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_751e9fa39ed1d3c7c51e5231ff31966a.setIcon(icon_4ef72d2919b91db4eff0c861f4968ffe);
             
     
-            var marker_fc54545f2169f3bbb7943a565002b034 = L.marker(
+            var marker_afd81d22e0e73ad25cc6550b1bf90f92 = L.marker(
                 [-29.6959701, -53.8351955],
                 {
 }
-            ).addTo(map_9b6f9375854f7f91ac7b585c4515ee6b);
+            ).addTo(map_81b9b963b7f08164fd2af6148de4af62);
         
     
-            var icon_7758f63d4d38b6dde18bcf744d1581ff = L.AwesomeMarkers.icon(
+            var icon_82e6430817aa964a1cae74033979436a = L.AwesomeMarkers.icon(
                 {
-  "markerColor": "green",
+  "markerColor": "brown",
   "iconColor": "white",
-  "icon": "exclamation-triangle",
+  "icon": "cutlery",
   "prefix": "fa",
   "extraClasses": "fa-rotate-0",
 }
             );
         
     
-        var popup_6b0b5352f6a2077f69d7acb0e37ef646 = L.popup({
+        var popup_f74960755449c9223896cd3a57e9e705 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_583bfd782a2c8a167301fd993abcf46b = $(`<div id="html_583bfd782a2c8a167301fd993abcf46b" style="width: 100.0%; height: 100.0%;">Cozinha Deus é Amor Rua G, 1045 – Vila Lídia, Santa Maria, RS Contato: Flávia Machado: (55) 99166-0622</div>`)[0];
-                popup_6b0b5352f6a2077f69d7acb0e37ef646.setContent(html_583bfd782a2c8a167301fd993abcf46b);
+                var html_a40fc8196364f7a4c86a4acef1c4d967 = $(`<div id="html_a40fc8196364f7a4c86a4acef1c4d967" style="width: 100.0%; height: 100.0%;">Cozinha Deus é Amor Rua G, 1045 – Vila Lídia, Santa Maria, RS Contato: Flávia Machado: (55) 99166-0622</div>`)[0];
+                popup_f74960755449c9223896cd3a57e9e705.setContent(html_a40fc8196364f7a4c86a4acef1c4d967);
             
         
 
-        marker_fc54545f2169f3bbb7943a565002b034.bindPopup(popup_6b0b5352f6a2077f69d7acb0e37ef646)
+        marker_afd81d22e0e73ad25cc6550b1bf90f92.bindPopup(popup_f74960755449c9223896cd3a57e9e705)
         ;
 
         
     
     
-                marker_fc54545f2169f3bbb7943a565002b034.setIcon(icon_7758f63d4d38b6dde18bcf744d1581ff);
+            marker_afd81d22e0e73ad25cc6550b1bf90f92.bindTooltip(
+                `<div>
+                     Deus é Amor
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_afd81d22e0e73ad25cc6550b1bf90f92.setIcon(icon_82e6430817aa964a1cae74033979436a);
             
     
-            var marker_94db5fdf3a93d6f8909e2bcfe288e09d = L.marker(
+            var marker_2a48a0b721647b6553ea51d6fe96321f = L.marker(
                 [-29.6758032, -53.8333319],
                 {
 }
-            ).addTo(map_9b6f9375854f7f91ac7b585c4515ee6b);
+            ).addTo(map_81b9b963b7f08164fd2af6148de4af62);
         
     
-            var icon_ff28c451fac2f9d7e9ede798e584388f = L.AwesomeMarkers.icon(
+            var icon_11cae8a28aab5e4afcdd9a10b20b4d4b = L.AwesomeMarkers.icon(
                 {
-  "markerColor": "green",
+  "markerColor": "brown",
   "iconColor": "white",
-  "icon": "exclamation-triangle",
+  "icon": "cutlery",
   "prefix": "fa",
   "extraClasses": "fa-rotate-0",
 }
             );
         
     
-        var popup_8d4251057d9b308f3c6355738d597a08 = L.popup({
+        var popup_bb4e40fcb21363e98beba7756662d097 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_e5fcde3284bc6ee70f35ea18417fd650 = $(`<div id="html_e5fcde3284bc6ee70f35ea18417fd650" style="width: 100.0%; height: 100.0%;">Cozinha Amor em Ação Rua Praia dos Ingleses, 45 – Vila Brenner, Santa Maria, RS Contato: Pamela: (55) 99182-9548</div>`)[0];
-                popup_8d4251057d9b308f3c6355738d597a08.setContent(html_e5fcde3284bc6ee70f35ea18417fd650);
+                var html_1dc6c00d1b4c32d359737b4ef87417d4 = $(`<div id="html_1dc6c00d1b4c32d359737b4ef87417d4" style="width: 100.0%; height: 100.0%;">Cozinha Amor em Ação Rua Praia dos Ingleses, 45 – Vila Brenner, Santa Maria, RS Contato: Pamela: (55) 99182-9548</div>`)[0];
+                popup_bb4e40fcb21363e98beba7756662d097.setContent(html_1dc6c00d1b4c32d359737b4ef87417d4);
             
         
 
-        marker_94db5fdf3a93d6f8909e2bcfe288e09d.bindPopup(popup_8d4251057d9b308f3c6355738d597a08)
+        marker_2a48a0b721647b6553ea51d6fe96321f.bindPopup(popup_bb4e40fcb21363e98beba7756662d097)
         ;
 
         
     
     
-                marker_94db5fdf3a93d6f8909e2bcfe288e09d.setIcon(icon_ff28c451fac2f9d7e9ede798e584388f);
+            marker_2a48a0b721647b6553ea51d6fe96321f.bindTooltip(
+                `<div>
+                     Amor em Ação
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2a48a0b721647b6553ea51d6fe96321f.setIcon(icon_11cae8a28aab5e4afcdd9a10b20b4d4b);
             
     
-            var marker_cfe49b4ad905574707851c51153d6c6d = L.marker(
+            var marker_bab4f9a71806c1287ada0bab9b92444a = L.marker(
                 [-29.6819283, -53.8617361],
                 {
 }
-            ).addTo(map_9b6f9375854f7f91ac7b585c4515ee6b);
+            ).addTo(map_81b9b963b7f08164fd2af6148de4af62);
         
     
-            var icon_8f205463a922825bdc520232af87ebf0 = L.AwesomeMarkers.icon(
+            var icon_467a023e58b6129cdbb87b4b34b6dc9c = L.AwesomeMarkers.icon(
                 {
-  "markerColor": "green",
+  "markerColor": "brown",
   "iconColor": "white",
-  "icon": "exclamation-triangle",
+  "icon": "cutlery",
   "prefix": "fa",
   "extraClasses": "fa-rotate-0",
 }
             );
         
     
-        var popup_753c9aed9a0a29e6a80a7ec76e193f5e = L.popup({
+        var popup_675bfa24b6af210b344faf64c6bda97f = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_b35f24a851bdf931b4995f712f5465be = $(`<div id="html_b35f24a851bdf931b4995f712f5465be" style="width: 100.0%; height: 100.0%;">Cozinha Ass. Espírita Francisco Spinelli Rua Auta de Souza, 10 - Nova Santa Marta, Santa Maria, RS Contato: Elson Busatto: (55) 99159-4623</div>`)[0];
-                popup_753c9aed9a0a29e6a80a7ec76e193f5e.setContent(html_b35f24a851bdf931b4995f712f5465be);
+                var html_6470bdce9feba874e121b080e80a9679 = $(`<div id="html_6470bdce9feba874e121b080e80a9679" style="width: 100.0%; height: 100.0%;">Cozinha Ass. Espírita Francisco Spinelli Rua Auta de Souza, 10 - Nova Santa Marta, Santa Maria, RS Contato: Elson Busatto: (55) 99159-4623</div>`)[0];
+                popup_675bfa24b6af210b344faf64c6bda97f.setContent(html_6470bdce9feba874e121b080e80a9679);
             
         
 
-        marker_cfe49b4ad905574707851c51153d6c6d.bindPopup(popup_753c9aed9a0a29e6a80a7ec76e193f5e)
+        marker_bab4f9a71806c1287ada0bab9b92444a.bindPopup(popup_675bfa24b6af210b344faf64c6bda97f)
         ;
 
         
     
     
-                marker_cfe49b4ad905574707851c51153d6c6d.setIcon(icon_8f205463a922825bdc520232af87ebf0);
-            
-    
-            var marker_2ee61cf6ff1ea491fb9f3f32ba9f4002 = L.marker(
-                [-29.7263889, -53.8138889],
+            marker_bab4f9a71806c1287ada0bab9b92444a.bindTooltip(
+                `<div>
+                     Associação Espírita Francisco Spinelli
+                 </div>`,
                 {
+  "sticky": true,
 }
-            ).addTo(map_9b6f9375854f7f91ac7b585c4515ee6b);
+            );
         
     
-            var icon_47f44b21bc1a953b37eb1524f5ed8d62 = L.AwesomeMarkers.icon(
+                marker_bab4f9a71806c1287ada0bab9b92444a.setIcon(icon_467a023e58b6129cdbb87b4b34b6dc9c);
+            
+    
+            var marker_ab40d2e1f0b7704ff97a6d23558b0c3a = L.marker(
+                [-29.7264208, -53.8140584],
                 {
-  "markerColor": "green",
+}
+            ).addTo(map_81b9b963b7f08164fd2af6148de4af62);
+        
+    
+            var icon_109d5ef0d0e74a72d7dacd31ee80650d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "brown",
   "iconColor": "white",
-  "icon": "exclamation-triangle",
+  "icon": "cutlery",
   "prefix": "fa",
   "extraClasses": "fa-rotate-0",
 }
             );
         
     
-        var popup_9127a55a34b9ea6c9427dad8fb4a91f4 = L.popup({
+        var popup_7acf1789a09cda7e519457d9466d165a = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_b603d29e4973a21231ab62c88b1870f5 = $(`<div id="html_b603d29e4973a21231ab62c88b1870f5" style="width: 100.0%; height: 100.0%;">Cozinha Mulheres Rosas de Março Rua 7 de Março – Lorenzi, Santa Maria, RS Contato: Elizângela de Deus: (55) 99151-1540</div>`)[0];
-                popup_9127a55a34b9ea6c9427dad8fb4a91f4.setContent(html_b603d29e4973a21231ab62c88b1870f5);
+                var html_dbee4794cedd96c80d015b1ffa1afa07 = $(`<div id="html_dbee4794cedd96c80d015b1ffa1afa07" style="width: 100.0%; height: 100.0%;">Cozinha Mulheres Rosas de Março Rua 7 de Março – Lorenzi, Santa Maria, RS Contato: Elizângela de Deus: (55) 99151-1540</div>`)[0];
+                popup_7acf1789a09cda7e519457d9466d165a.setContent(html_dbee4794cedd96c80d015b1ffa1afa07);
             
         
 
-        marker_2ee61cf6ff1ea491fb9f3f32ba9f4002.bindPopup(popup_9127a55a34b9ea6c9427dad8fb4a91f4)
+        marker_ab40d2e1f0b7704ff97a6d23558b0c3a.bindPopup(popup_7acf1789a09cda7e519457d9466d165a)
         ;
 
         
     
     
-                marker_2ee61cf6ff1ea491fb9f3f32ba9f4002.setIcon(icon_47f44b21bc1a953b37eb1524f5ed8d62);
+            marker_ab40d2e1f0b7704ff97a6d23558b0c3a.bindTooltip(
+                `<div>
+                     Mulheres Rosas de Março (Cozinha)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ab40d2e1f0b7704ff97a6d23558b0c3a.setIcon(icon_109d5ef0d0e74a72d7dacd31ee80650d);
             
     
-            var marker_23b2346ff08c2e94b0cc3bdda25a4a5a = L.marker(
+            var marker_20e643eca77fbb60941274f8c9b3c5b7 = L.marker(
                 [-29.7143164, -53.8265761],
                 {
 }
-            ).addTo(map_9b6f9375854f7f91ac7b585c4515ee6b);
+            ).addTo(map_81b9b963b7f08164fd2af6148de4af62);
         
     
-            var icon_b4089e569341748d2a9a2b94643647f9 = L.AwesomeMarkers.icon(
+            var icon_31bc8662a34f00cbe97e891107980cbd = L.AwesomeMarkers.icon(
                 {
-  "markerColor": "green",
+  "markerColor": "orange",
   "iconColor": "white",
-  "icon": "exclamation-triangle",
+  "icon": "users",
   "prefix": "fa",
   "extraClasses": "fa-rotate-0",
 }
             );
         
     
-        var popup_78b2d9c8860b9cbf44158724e5e9ba92 = L.popup({
+        var popup_113d87a9a27aee9c989e5317740ae0c0 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_aae391a3d8c4ebc87fce64f02636fdee = $(`<div id="html_aae391a3d8c4ebc87fce64f02636fdee" style="width: 100.0%; height: 100.0%;">Associação Marias Bonitas Rua Nova, 100 – Urlândia, Santa Maria, RS Contato: Elisiane Pahim: (55) 99988-4959</div>`)[0];
-                popup_78b2d9c8860b9cbf44158724e5e9ba92.setContent(html_aae391a3d8c4ebc87fce64f02636fdee);
+                var html_228b37e417940da331393df0335eeccf = $(`<div id="html_228b37e417940da331393df0335eeccf" style="width: 100.0%; height: 100.0%;">Associação Marias Bonitas Rua Nova, 100 – Urlândia, Santa Maria, RS Contato: Elisiane Pahim: (55) 99988-4959</div>`)[0];
+                popup_113d87a9a27aee9c989e5317740ae0c0.setContent(html_228b37e417940da331393df0335eeccf);
             
         
 
-        marker_23b2346ff08c2e94b0cc3bdda25a4a5a.bindPopup(popup_78b2d9c8860b9cbf44158724e5e9ba92)
+        marker_20e643eca77fbb60941274f8c9b3c5b7.bindPopup(popup_113d87a9a27aee9c989e5317740ae0c0)
         ;
 
         
     
     
-                marker_23b2346ff08c2e94b0cc3bdda25a4a5a.setIcon(icon_b4089e569341748d2a9a2b94643647f9);
+            marker_20e643eca77fbb60941274f8c9b3c5b7.bindTooltip(
+                `<div>
+                     Marias Bonitas - Fazendo história
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_20e643eca77fbb60941274f8c9b3c5b7.setIcon(icon_31bc8662a34f00cbe97e891107980cbd);
             
     
-            var marker_1a1fc9e0b677a3b3952e01786a535bcf = L.marker(
+            var marker_b53d57958c3daacc1045cc8dab744299 = L.marker(
+                [-29.7264219, -53.8140436],
+                {
+}
+            ).addTo(map_81b9b963b7f08164fd2af6148de4af62);
+        
+    
+            var icon_040382c592e4c7c01fb37b0c78d2e3b5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "users",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f5967175005ef19242d7b72a51d6e899 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2bdc2e090cda60da206a75ef6491264d = $(`<div id="html_2bdc2e090cda60da206a75ef6491264d" style="width: 100.0%; height: 100.0%;">Associação Mulheres Rosas de Março Rua 7 de Março – Lorenzi, Santa Maria, RS Contato: Elizângela de Deus: (55) 99151-1540</div>`)[0];
+                popup_f5967175005ef19242d7b72a51d6e899.setContent(html_2bdc2e090cda60da206a75ef6491264d);
+            
+        
+
+        marker_b53d57958c3daacc1045cc8dab744299.bindPopup(popup_f5967175005ef19242d7b72a51d6e899)
+        ;
+
+        
+    
+    
+            marker_b53d57958c3daacc1045cc8dab744299.bindTooltip(
+                `<div>
+                     Mulheres Rosas de Março (Associação)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b53d57958c3daacc1045cc8dab744299.setIcon(icon_040382c592e4c7c01fb37b0c78d2e3b5);
+            
+    
+            var marker_78aae6065edd438d58957ab53ea17050 = L.marker(
                 [-29.6880711, -53.780717],
                 {
 }
-            ).addTo(map_9b6f9375854f7f91ac7b585c4515ee6b);
+            ).addTo(map_81b9b963b7f08164fd2af6148de4af62);
         
     
-            var icon_e5ccd20667ef0969ae6ffc686dd48d96 = L.AwesomeMarkers.icon(
+            var icon_6766efbab9974971f9762bf3b2eee4b9 = L.AwesomeMarkers.icon(
                 {
-  "markerColor": "green",
+  "markerColor": "orange",
   "iconColor": "white",
-  "icon": "exclamation-triangle",
+  "icon": "users",
   "prefix": "fa",
   "extraClasses": "fa-rotate-0",
 }
             );
         
     
-        var popup_ea9cf609529dc60cc7da682f11fccdab = L.popup({
+        var popup_6f179479053a91999da405664377a91e = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_958e25629ead1a76473e45c99a12a117 = $(`<div id="html_958e25629ead1a76473e45c99a12a117" style="width: 100.0%; height: 100.0%;">Associação Estação dos Ventos Luiz Castagna, Travessa Girassol, 123 – Km 3, Santa Maria, RS Contato: Fabiana Machado: (55) 99217-3707</div>`)[0];
-                popup_ea9cf609529dc60cc7da682f11fccdab.setContent(html_958e25629ead1a76473e45c99a12a117);
+                var html_487080b0c3e792fd0e12c5da6ca95685 = $(`<div id="html_487080b0c3e792fd0e12c5da6ca95685" style="width: 100.0%; height: 100.0%;">Associação Estação dos Ventos Luiz Castagna, Travessa Girassol, 123 – Km 3, Santa Maria, RS Contato: Fabiana Machado: (55) 99217-3707</div>`)[0];
+                popup_6f179479053a91999da405664377a91e.setContent(html_487080b0c3e792fd0e12c5da6ca95685);
             
         
 
-        marker_1a1fc9e0b677a3b3952e01786a535bcf.bindPopup(popup_ea9cf609529dc60cc7da682f11fccdab)
+        marker_78aae6065edd438d58957ab53ea17050.bindPopup(popup_6f179479053a91999da405664377a91e)
         ;
 
         
     
     
-                marker_1a1fc9e0b677a3b3952e01786a535bcf.setIcon(icon_e5ccd20667ef0969ae6ffc686dd48d96);
+            marker_78aae6065edd438d58957ab53ea17050.bindTooltip(
+                `<div>
+                     Centro de Desenvolvimento Comunitário Estação dos Ventos
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_78aae6065edd438d58957ab53ea17050.setIcon(icon_6766efbab9974971f9762bf3b2eee4b9);
             
     
-            var marker_dda5eabce5eb617ac1e24cad3f875d94 = L.marker(
+            var marker_92177ce544692b6824be121703ae3b89 = L.marker(
                 [-29.6867575, -53.7991792],
                 {
 }
-            ).addTo(map_9b6f9375854f7f91ac7b585c4515ee6b);
+            ).addTo(map_81b9b963b7f08164fd2af6148de4af62);
         
     
-            var icon_d36b4a373ce18e5bd81ec72814737b85 = L.AwesomeMarkers.icon(
+            var icon_51f97a8df1172dce66b02e676a62e16e = L.AwesomeMarkers.icon(
                 {
-  "markerColor": "green",
+  "markerColor": "orange",
   "iconColor": "white",
-  "icon": "exclamation-triangle",
+  "icon": "users",
   "prefix": "fa",
   "extraClasses": "fa-rotate-0",
 }
             );
         
     
-        var popup_2eb7b364af46fd6614e3e7f695b18982 = L.popup({
+        var popup_7cf83c2652dca928e9b40b4ba54c689a = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_94588229b80a336a809ab73a509f376a = $(`<div id="html_94588229b80a336a809ab73a509f376a" style="width: 100.0%; height: 100.0%;">Associação Casa de Assis Rua Manoel Gomes Carneiro, 388 – Centro, Santa Maria, RS Contato: Dona Neiva: (55) 99978-7260</div>`)[0];
-                popup_2eb7b364af46fd6614e3e7f695b18982.setContent(html_94588229b80a336a809ab73a509f376a);
+                var html_4fa83dd3c62696da68fdc7d47b78bd53 = $(`<div id="html_4fa83dd3c62696da68fdc7d47b78bd53" style="width: 100.0%; height: 100.0%;">Associação Casa de Assis Rua Manoel Gomes Carneiro, 388 – Centro, Santa Maria, RS Contato: Dona Neiva: (55) 99978-7260</div>`)[0];
+                popup_7cf83c2652dca928e9b40b4ba54c689a.setContent(html_4fa83dd3c62696da68fdc7d47b78bd53);
             
         
 
-        marker_dda5eabce5eb617ac1e24cad3f875d94.bindPopup(popup_2eb7b364af46fd6614e3e7f695b18982)
+        marker_92177ce544692b6824be121703ae3b89.bindPopup(popup_7cf83c2652dca928e9b40b4ba54c689a)
         ;
 
         
     
     
-                marker_dda5eabce5eb617ac1e24cad3f875d94.setIcon(icon_d36b4a373ce18e5bd81ec72814737b85);
-            
-    
-            var marker_f341ce12b39e858f5612b744a045944c = L.marker(
-                [-29.7267222, -53.8079444],
+            marker_92177ce544692b6824be121703ae3b89.bindTooltip(
+                `<div>
+                     Associação Casa de Assis
+                 </div>`,
                 {
+  "sticky": true,
 }
-            ).addTo(map_9b6f9375854f7f91ac7b585c4515ee6b);
+            );
         
     
-            var icon_83cefc1c59877574e1a5a0d2fa0de0a0 = L.AwesomeMarkers.icon(
+                marker_92177ce544692b6824be121703ae3b89.setIcon(icon_51f97a8df1172dce66b02e676a62e16e);
+            
+    
+            var marker_5e1abe3ae61acfac0c3b320ad25a0db2 = L.marker(
+                [-29.7258964, -53.8081479],
                 {
-  "markerColor": "green",
+}
+            ).addTo(map_81b9b963b7f08164fd2af6148de4af62);
+        
+    
+            var icon_078b69a1598768b1476e576879ce8267 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
   "iconColor": "white",
-  "icon": "exclamation-triangle",
+  "icon": "church",
   "prefix": "fa",
   "extraClasses": "fa-rotate-0",
 }
             );
         
     
-        var popup_ed44298246ff5dd4fa5a474477707890 = L.popup({
+        var popup_d7cbb0f3fa198798f68c1545f9056196 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_f11458917257bc595d615c06c4f1be4a = $(`<div id="html_f11458917257bc595d615c06c4f1be4a" style="width: 100.0%; height: 100.0%;">Comunidade Santa Terezinha Rua Olga Pacianello, 315 – Lorenzi, Santa Maria, RS Contato: Mari: (45) 98113-0020</div>`)[0];
-                popup_ed44298246ff5dd4fa5a474477707890.setContent(html_f11458917257bc595d615c06c4f1be4a);
+                var html_e085a9b446be42cc6b55a28dcc840cde = $(`<div id="html_e085a9b446be42cc6b55a28dcc840cde" style="width: 100.0%; height: 100.0%;">Comunidade Santa Terezinha Rua Olga Pacianello, 315 – Lorenzi, Santa Maria, RS Contato: Mari: (45) 98113-0020</div>`)[0];
+                popup_d7cbb0f3fa198798f68c1545f9056196.setContent(html_e085a9b446be42cc6b55a28dcc840cde);
             
         
 
-        marker_f341ce12b39e858f5612b744a045944c.bindPopup(popup_ed44298246ff5dd4fa5a474477707890)
+        marker_5e1abe3ae61acfac0c3b320ad25a0db2.bindPopup(popup_d7cbb0f3fa198798f68c1545f9056196)
         ;
 
         
     
     
-                marker_f341ce12b39e858f5612b744a045944c.setIcon(icon_83cefc1c59877574e1a5a0d2fa0de0a0);
+            marker_5e1abe3ae61acfac0c3b320ad25a0db2.bindTooltip(
+                `<div>
+                     Comunidade Santa Terezinha
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5e1abe3ae61acfac0c3b320ad25a0db2.setIcon(icon_078b69a1598768b1476e576879ce8267);
             
     
-            var marker_26757a02de3ac4c21be3257161cb92f8 = L.marker(
+            var marker_26bf635facbfc1dc618c19325d425fdb = L.marker(
                 [-29.6854128, -53.7861647],
                 {
 }
-            ).addTo(map_9b6f9375854f7f91ac7b585c4515ee6b);
+            ).addTo(map_81b9b963b7f08164fd2af6148de4af62);
         
     
-            var icon_33dcc74bd5e57a8edb0471ec699ddf49 = L.AwesomeMarkers.icon(
+            var icon_a9515e91fae3a1233151e9a7df0ee468 = L.AwesomeMarkers.icon(
                 {
-  "markerColor": "green",
+  "markerColor": "purple",
   "iconColor": "white",
-  "icon": "exclamation-triangle",
+  "icon": "star",
   "prefix": "fa",
   "extraClasses": "fa-rotate-0",
 }
             );
         
     
-        var popup_3097d3fbce57e4a7d82ca3ef49b2cde1 = L.popup({
+        var popup_2c882e83b71b84a29ac876bcffe01530 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_3ed0793658c157f8bc98d3bbea2fe3b4 = $(`<div id="html_3ed0793658c157f8bc98d3bbea2fe3b4" style="width: 100.0%; height: 100.0%;">Ilé Àṣẹ Iyá Omin Orun - Casa de Osun Rua João Brunhauser, 112 – Pres. João Goulart, Santa Maria, RS Contato: Mãe Silvia: (55) 99138-1717</div>`)[0];
-                popup_3097d3fbce57e4a7d82ca3ef49b2cde1.setContent(html_3ed0793658c157f8bc98d3bbea2fe3b4);
+                var html_55b7e81bbd7a983f8f80112c3dd1d0c5 = $(`<div id="html_55b7e81bbd7a983f8f80112c3dd1d0c5" style="width: 100.0%; height: 100.0%;">Ilé Àṣẹ Iyá Omin Orun - Casa de Osun Rua João Brunhauser, 112 – Pres. João Goulart, Santa Maria, RS Contato: Mãe Silvia: (55) 99138-1717</div>`)[0];
+                popup_2c882e83b71b84a29ac876bcffe01530.setContent(html_55b7e81bbd7a983f8f80112c3dd1d0c5);
             
         
 
-        marker_26757a02de3ac4c21be3257161cb92f8.bindPopup(popup_3097d3fbce57e4a7d82ca3ef49b2cde1)
+        marker_26bf635facbfc1dc618c19325d425fdb.bindPopup(popup_2c882e83b71b84a29ac876bcffe01530)
         ;
 
         
     
     
-                marker_26757a02de3ac4c21be3257161cb92f8.setIcon(icon_33dcc74bd5e57a8edb0471ec699ddf49);
-            
-    
-            var marker_e756a1bf4d4679ffb0656eb994a04b50 = L.marker(
-                [-29.7076944, -53.8661667],
+            marker_26bf635facbfc1dc618c19325d425fdb.bindTooltip(
+                `<div>
+                     Ilé Àṣẹ Iyá Omin Orun - Casa de Osun
+                 </div>`,
                 {
+  "sticky": true,
 }
-            ).addTo(map_9b6f9375854f7f91ac7b585c4515ee6b);
+            );
         
     
-            var icon_4ad3d96e9f87d5b8a31abf521ed0bc26 = L.AwesomeMarkers.icon(
+                marker_26bf635facbfc1dc618c19325d425fdb.setIcon(icon_a9515e91fae3a1233151e9a7df0ee468);
+            
+    
+            var marker_cdb098ac24cddbfdc49b645fdc64de92 = L.marker(
+                [-29.7077181, -53.8661353],
                 {
-  "markerColor": "green",
+}
+            ).addTo(map_81b9b963b7f08164fd2af6148de4af62);
+        
+    
+            var icon_cfb0eea79ba4e357fe2c735fcd6cd801 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
   "iconColor": "white",
-  "icon": "exclamation-triangle",
+  "icon": "church",
   "prefix": "fa",
   "extraClasses": "fa-rotate-0",
 }
             );
         
     
-        var popup_0b62a91dcf56ff426e50106a1f11b624 = L.popup({
+        var popup_6bcd602035e511bda92a0feb24cb1bd8 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_e95745e970896478e6323bd1615dbae0 = $(`<div id="html_e95745e970896478e6323bd1615dbae0" style="width: 100.0%; height: 100.0%;">Igreja Batista Ágape BR-158 (Faixa de Rosário), 2255 – Parque Pinheiro Machado, Santa Maria, RS Contato: Diego: (54) 99669-4833</div>`)[0];
-                popup_0b62a91dcf56ff426e50106a1f11b624.setContent(html_e95745e970896478e6323bd1615dbae0);
+                var html_698cc634a16fbba9e61b9d8ff911e8ca = $(`<div id="html_698cc634a16fbba9e61b9d8ff911e8ca" style="width: 100.0%; height: 100.0%;">Igreja Batista Ágape BR-158 (Faixa de Rosário), 2255 – Parque Pinheiro Machado, Santa Maria, RS Contato: Diego: (54) 99669-4833</div>`)[0];
+                popup_6bcd602035e511bda92a0feb24cb1bd8.setContent(html_698cc634a16fbba9e61b9d8ff911e8ca);
             
         
 
-        marker_e756a1bf4d4679ffb0656eb994a04b50.bindPopup(popup_0b62a91dcf56ff426e50106a1f11b624)
+        marker_cdb098ac24cddbfdc49b645fdc64de92.bindPopup(popup_6bcd602035e511bda92a0feb24cb1bd8)
         ;
 
         
     
     
-                marker_e756a1bf4d4679ffb0656eb994a04b50.setIcon(icon_4ad3d96e9f87d5b8a31abf521ed0bc26);
+            marker_cdb098ac24cddbfdc49b645fdc64de92.bindTooltip(
+                `<div>
+                     Igreja Batista Ágape
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_cdb098ac24cddbfdc49b645fdc64de92.setIcon(icon_cfb0eea79ba4e357fe2c735fcd6cd801);
+            
+    
+            var marker_783bafca4dbdcc8dbd6d2e78d15627d3 = L.marker(
+                [-29.6742619, -53.826569],
+                {
+}
+            ).addTo(map_81b9b963b7f08164fd2af6148de4af62);
+        
+    
+            var icon_3656223d1887500a3667c2becc9c41c5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "church",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2e4dbb447d9e095d68a96b64bf39f87d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6fdbeacbebc619749449e4fc2dd87ab0 = $(`<div id="html_6fdbeacbebc619749449e4fc2dd87ab0" style="width: 100.0%; height: 100.0%;">Igreja Batista Betel Av. Borges de Medeiros, 1175 – Salgado Filho, Santa Maria, RS Contato: Diego: (54) 99669-4833</div>`)[0];
+                popup_2e4dbb447d9e095d68a96b64bf39f87d.setContent(html_6fdbeacbebc619749449e4fc2dd87ab0);
+            
+        
+
+        marker_783bafca4dbdcc8dbd6d2e78d15627d3.bindPopup(popup_2e4dbb447d9e095d68a96b64bf39f87d)
+        ;
+
+        
+    
+    
+            marker_783bafca4dbdcc8dbd6d2e78d15627d3.bindTooltip(
+                `<div>
+                     Igreja Batista Betel
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_783bafca4dbdcc8dbd6d2e78d15627d3.setIcon(icon_3656223d1887500a3667c2becc9c41c5);
+            
+    
+            var marker_82b3d1829b80490745b77a6219072ed0 = L.marker(
+                [-29.7517656, -53.7890168],
+                {
+}
+            ).addTo(map_81b9b963b7f08164fd2af6148de4af62);
+        
+    
+            var icon_baf8e482e381ebd2ffd61fa42219cbce = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "church",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5c8c84e3ed6ecd81254d1ee0e333b609 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_901ca1dbf7ab8c86382eee94f9e190c2 = $(`<div id="html_901ca1dbf7ab8c86382eee94f9e190c2" style="width: 100.0%; height: 100.0%;">Igreja Templo do Poder de Deus Rua Augusto Kunz, 150 – Passo das Tropas, Santa Maria, RS</div>`)[0];
+                popup_5c8c84e3ed6ecd81254d1ee0e333b609.setContent(html_901ca1dbf7ab8c86382eee94f9e190c2);
+            
+        
+
+        marker_82b3d1829b80490745b77a6219072ed0.bindPopup(popup_5c8c84e3ed6ecd81254d1ee0e333b609)
+        ;
+
+        
+    
+    
+            marker_82b3d1829b80490745b77a6219072ed0.bindTooltip(
+                `<div>
+                     Igreja Templo do Poder de Deus
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_82b3d1829b80490745b77a6219072ed0.setIcon(icon_baf8e482e381ebd2ffd61fa42219cbce);
+            
+    
+            var marker_17e0b4da4936a9db84cc838ab8287068 = L.marker(
+                [-29.6799206, -53.8292641],
+                {
+}
+            ).addTo(map_81b9b963b7f08164fd2af6148de4af62);
+        
+    
+            var icon_9d0b039c37f5c165bddf8ad067ac9911 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ae7b252c7e4b9e0206fc8b36b6722bb4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a49c9d3c93534644f2f522352a6b6389 = $(`<div id="html_a49c9d3c93534644f2f522352a6b6389" style="width: 100.0%; height: 100.0%;">Templo de Umbanda Xangô e Exu Caveira Rua 20 de Janeiro, 391 – Divina Providência, Santa Maria, RS Contato: Fabrício de Cassenote: (55) 99148-1732</div>`)[0];
+                popup_ae7b252c7e4b9e0206fc8b36b6722bb4.setContent(html_a49c9d3c93534644f2f522352a6b6389);
+            
+        
+
+        marker_17e0b4da4936a9db84cc838ab8287068.bindPopup(popup_ae7b252c7e4b9e0206fc8b36b6722bb4)
+        ;
+
+        
+    
+    
+            marker_17e0b4da4936a9db84cc838ab8287068.bindTooltip(
+                `<div>
+                     Templo de Umbanda Xangô e Exu Caveira
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_17e0b4da4936a9db84cc838ab8287068.setIcon(icon_9d0b039c37f5c165bddf8ad067ac9911);
+            
+    
+            var marker_e760056bc23209518327f999d401a2ad = L.marker(
+                [-29.6913361, -53.8623986],
+                {
+}
+            ).addTo(map_81b9b963b7f08164fd2af6148de4af62);
+        
+    
+            var icon_66acac0ddc75f55230130b18a5bdcc22 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b15df5b9799bc73cc389c79d72547c3e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_51ab85f326721abed56c2a9761b892e3 = $(`<div id="html_51ab85f326721abed56c2a9761b892e3" style="width: 100.0%; height: 100.0%;">Reino de Axé Oyá Nique e Oxalá Rua Benjamin D'Ávila Prado, 11 – Juscelino Kubitschek, Santa Maria, RS Contato: Sabrina: (55) 98413-1680</div>`)[0];
+                popup_b15df5b9799bc73cc389c79d72547c3e.setContent(html_51ab85f326721abed56c2a9761b892e3);
+            
+        
+
+        marker_e760056bc23209518327f999d401a2ad.bindPopup(popup_b15df5b9799bc73cc389c79d72547c3e)
+        ;
+
+        
+    
+    
+            marker_e760056bc23209518327f999d401a2ad.bindTooltip(
+                `<div>
+                     Reino de Axé Oyá Nique e Oxalá
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e760056bc23209518327f999d401a2ad.setIcon(icon_66acac0ddc75f55230130b18a5bdcc22);
+            
+    
+            var marker_e49ee88be4c1bcdf646ff14b3388bed9 = L.marker(
+                [-29.6978052, -53.8675936],
+                {
+}
+            ).addTo(map_81b9b963b7f08164fd2af6148de4af62);
+        
+    
+            var icon_68c0702e04308849c5a505da0aa4bc08 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkred",
+  "iconColor": "white",
+  "icon": "heart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c0d362f8ffb28d5070d85413b6ceabc2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4fc6b1d6bef312a8dd4bbcdaa74e011e = $(`<div id="html_4fc6b1d6bef312a8dd4bbcdaa74e011e" style="width: 100.0%; height: 100.0%;">ONG Mãos Unidas Pelo Cipriano Rua Niterói, 500 – Parque Pinheiro Machado, Santa Maria, RS Contato: Anderson Melgares: (55) 98419-9742</div>`)[0];
+                popup_c0d362f8ffb28d5070d85413b6ceabc2.setContent(html_4fc6b1d6bef312a8dd4bbcdaa74e011e);
+            
+        
+
+        marker_e49ee88be4c1bcdf646ff14b3388bed9.bindPopup(popup_c0d362f8ffb28d5070d85413b6ceabc2)
+        ;
+
+        
+    
+    
+            marker_e49ee88be4c1bcdf646ff14b3388bed9.bindTooltip(
+                `<div>
+                     ONG Mãos Unidas Pelo Cipriano
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e49ee88be4c1bcdf646ff14b3388bed9.setIcon(icon_68c0702e04308849c5a505da0aa4bc08);
+            
+    
+            var marker_9939b6fc028a8d5a7f473c631cfc5121 = L.marker(
+                [-29.7029807, -53.7215761],
+                {
+}
+            ).addTo(map_81b9b963b7f08164fd2af6148de4af62);
+        
+    
+            var icon_86061e4ad1a2f0dd69fd2030bc1e09e3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkgreen",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1647c289590df4acebbd1f163dec0533 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0ad548ea651a4d258ff23d205779da7e = $(`<div id="html_0ad548ea651a4d258ff23d205779da7e" style="width: 100.0%; height: 100.0%;">CTG Sentinela da Querência Rua Silvino Jacob Zimmermann, 115 – Camobi, Santa Maria, RS Contato: Ronaldo Lock: (55) 99145-8529</div>`)[0];
+                popup_1647c289590df4acebbd1f163dec0533.setContent(html_0ad548ea651a4d258ff23d205779da7e);
+            
+        
+
+        marker_9939b6fc028a8d5a7f473c631cfc5121.bindPopup(popup_1647c289590df4acebbd1f163dec0533)
+        ;
+
+        
+    
+    
+            marker_9939b6fc028a8d5a7f473c631cfc5121.bindTooltip(
+                `<div>
+                     CTG Sentinela da Querência
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9939b6fc028a8d5a7f473c631cfc5121.setIcon(icon_86061e4ad1a2f0dd69fd2030bc1e09e3);
+            
+    
+            var marker_533b4eead5fc7a3ba3d609b11469a70d = L.marker(
+                [-29.7037774, -53.876117],
+                {
+}
+            ).addTo(map_81b9b963b7f08164fd2af6148de4af62);
+        
+    
+            var icon_166d26f27e4e51c33f44dab3c7794e59 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkgreen",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_81355352e3409ce23cd5436b00060bbd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f650e1a98bf0042e08e73319eead878c = $(`<div id="html_f650e1a98bf0042e08e73319eead878c" style="width: 100.0%; height: 100.0%;">CTG Passo dos Ferreiros Rua Milton Mendonça de Souza, 500 – Tancredo Neves, Santa Maria, RS Contato: Tiago: (55) 99126-6823</div>`)[0];
+                popup_81355352e3409ce23cd5436b00060bbd.setContent(html_f650e1a98bf0042e08e73319eead878c);
+            
+        
+
+        marker_533b4eead5fc7a3ba3d609b11469a70d.bindPopup(popup_81355352e3409ce23cd5436b00060bbd)
+        ;
+
+        
+    
+    
+            marker_533b4eead5fc7a3ba3d609b11469a70d.bindTooltip(
+                `<div>
+                     CTG Passo dos Ferreiros
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_533b4eead5fc7a3ba3d609b11469a70d.setIcon(icon_166d26f27e4e51c33f44dab3c7794e59);
+            
+    
+            var marker_3ddc16a5b968b57ca3114074af1c06a0 = L.marker(
+                [-29.7033798, -53.8075996],
+                {
+}
+            ).addTo(map_81b9b963b7f08164fd2af6148de4af62);
+        
+    
+            var icon_281fa69295987bd2edcd2675206d38d2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "users",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6d0fdcd27947fd0057daf849d197ab5a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_53471e1927955b397d7745da4a1d8bf4 = $(`<div id="html_53471e1927955b397d7745da4a1d8bf4" style="width: 100.0%; height: 100.0%;">Projeto Esperança Rua Ver. Bolsson, 1 – Nossa Sra. Medianeira, Santa Maria, RS Contato: Tiago: (55) 99126-6823</div>`)[0];
+                popup_6d0fdcd27947fd0057daf849d197ab5a.setContent(html_53471e1927955b397d7745da4a1d8bf4);
+            
+        
+
+        marker_3ddc16a5b968b57ca3114074af1c06a0.bindPopup(popup_6d0fdcd27947fd0057daf849d197ab5a)
+        ;
+
+        
+    
+    
+            marker_3ddc16a5b968b57ca3114074af1c06a0.bindTooltip(
+                `<div>
+                     Projeto Esperança/Cooesperança
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3ddc16a5b968b57ca3114074af1c06a0.setIcon(icon_281fa69295987bd2edcd2675206d38d2);
             
 </script>
 </html>
