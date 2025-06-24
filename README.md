@@ -6,7 +6,7 @@
 Mapeamento interativo das iniciativas de voluntariado emergenciais após o desastre socioambiental de 2024 em Santa Maria/RS.
 
 ## 📋 Sobre o Projeto
-Estudo desenvolvido pelo **Laboratório de Investigação Sociológica (LABIS/UFSM)** como parte do projeto *"Catástrofes climáticas: dimensões socioculturais do alerta e contenção de riscos"*, financiada pela Pró-Reitoria de Extensão (PRE/UFSM). Algoritmo produzido pelo bolsista Eric Quevedo Silva, graduando em Ciências Sociais (UFSM), a partir da coleta de informações e mapeamento das iniciativas realizadas pelo grupo de trabalho.
+Estudo desenvolvido pelo **Laboratório de Investigação Sociológica (LABIS/UFSM)** como parte do projeto *"Catástrofes climáticas: dimensões socioculturais do alerta e contenção de riscos"*, financiada pela Pró-Reitoria de Extensão (PRE/UFSM). Código produzido pelo bolsista Eric Quevedo Silva, graduando em Ciências Sociais (UFSM), a partir da coleta de informações e mapeamento das iniciativas realizadas pelo grupo de trabalho.
 
 **Objetivos**:
 - Visualizar geograficamente a rede de solidariedade emergencial
